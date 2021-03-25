@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "namelab"
+require "namelab/cli"
+
+Dry::CLI.new(Namelab::CLI::Commands).call
